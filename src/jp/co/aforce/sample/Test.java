@@ -7,7 +7,7 @@ public class DoubleInteger{
 	public static void main(String[]args) {
 		int num = 5;
 		int int2x = num * 2;
-		System.out.println("5×2=10" + int2x);
+		System.out.println("5 × 2 =" + int2x);
 	}
 }
 
