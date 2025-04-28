@@ -7,7 +7,7 @@ public class kadai2 {
 	
 	public static void main(String[]args){
 
-		
+//６章：コレクション		
 //問１
 		List<String> countList = new ArrayList<String>();
 		
@@ -25,7 +25,20 @@ public class kadai2 {
 }
 
 //問２
+ArrayList<String>deleteList = new ArrayList<>();
 
+		deleteList.add("ぶどう");
+		deleteList.add("キウイ");
+		deleteList.add("メロン");
+		deleteList.add("ぶどう");
+		
+		HashSet<String>newset = new HashSet<>(deletelist);
+		
+		System.out.println("重複を削除したセット:" + newset);
+		
+		}
+	}}
+		
 //問３
 
 		List<String> fruitsList = new ArrayList<String>();
@@ -33,9 +46,7 @@ public class kadai2 {
 		fruitsList.add("リンゴ");
 		fruitsList.add("バナナ");
 		fruitsList.add("さくらんぼ");
-		
 		fruitsList.remove("バナナ");
-		
 		fruitsList.add("オレンジ");
 		
 		System.out.println(fruitsList);
@@ -52,13 +63,33 @@ public class kadai2 {
 		
 		System.out.println("最初の要素:" +element0 + "最後の要素:" +element1);
 		
+//問２
+		ArrayList<String>SpecialData = new ArrayList<>();
+		SpecialData.add("15");
+		SpecialData.add("8");
+		SpecialData.add("97");
+		SpecialData.add("51");
 		
+		int seartch = 15 ;
+		boolean contains = list.contains(seartch);
+		System.out.println("リストに" + seartch +"が含まれているか:" + contains);
 		
+//問３
+		ArrayList<String>SpellList = new ArrayList<>();
+		SpellList.add("Egg");
+		SpellList.add("Apple");
+		SpellList.add("Zoff");
+		SpellList.add("Boss");
 		
+		Collection.sort(SpellList);
+		System.out.println("ソートしたリスト" + list);
+
+		//ハッシュとは
+//問１
+//問２		
+//問３
+//問１
 		
-		
-		
-		
-		
-		
-		
+//問２
+				
+//問３

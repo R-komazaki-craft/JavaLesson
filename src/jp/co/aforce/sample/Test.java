@@ -124,12 +124,23 @@ public class UserInfo{
 		BirthDay = LocalDate.of(2001, 4, 23);
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 		
-		String formattInfo
+		String formattInfo = String.format("名前":%s,%d歳,誕生日:%s,name,age,birthDate.format(formatter));
+		
+		System.out.println(formatInfo);
 	}
 }
 		
 
 //7
+public class ShopCount{
+	public static void main (String[] args) {
+		String name = Laptop;
+		int count = 1200;
+		int sum = count *3
+		
+		System.out.println(name + "は、価格:" + count + "円なので,3個買うと" + sum + "です。")
+	}
+}
 
 //8
 		a.-45
