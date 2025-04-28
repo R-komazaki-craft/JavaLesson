@@ -1,6 +1,10 @@
 package jp.co.aforce.sample;
 
 
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 //	第2章値と演算
 //問１
 public class DoubleInteger{
@@ -64,7 +68,7 @@ public class SpilitUnit{
 public class DataUnit{
 	public static void main(String[]args) {
 		int num = 10;
-		System.out.println("変数numの値は" + num "です。");
+		System.out.println("値は" + num "です。");
 	}
 }
 
@@ -96,16 +100,33 @@ public class DataProgram{
 		boolean isFun = true;
 		System.out.println("名前:" + name);
 		System.out.println("バージョン:" + version);
-		System.out.println("楽しいですか:" + isFun);
+		System.out.println("楽しいですか?:" + isFun);
 	}
 }
 
-//5これ分からなかった
-		Scanner name = "太郎"
-				
-		System.out.println("こんにちは、" + name +"さん！");		
+//5
+import java.util.Scanner;
+
+public class UserName {
+	public static void main (String[]args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("こんにちは、" + name +"さん！");
+		
+		scanner.close();
+	}
+}	
 
 //6
+public class UserInfo{
+	public static void main (String []args) {
+		String name = "駒崎瑠菜";
+		int age = 24;
+		BirthDay = LocalDate.of(2001, 4, 23);
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+		
+		String formattInfo
+	}
+}
 		
 
 //7
